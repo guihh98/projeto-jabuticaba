@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,29 +23,70 @@
       </div>
       <form action="">
         <div class="input-container">
-          <label for="nome">Cidade: </label>
+          <label for="cidade">Cidade: </label>
           <input
             id="cidade"
             type="text"
             placeholder="Ex:. Nome da sua cidade" />
         </div>
         <div class="input-container">
-          <label for="nome">Rua: </label>
-          <input id="rua" type="text" placeholder="Ex:. Nome da rua" />
+          <label for="rua">Rua: </label>
+          <input
+            id="rua"
+            type="text"
+            placeholder="Ex:. Nome da rua" />
         </div>
         <div class="container-grid">
-          <label for="numero">Numero: </label>
-          <input id="numero" type="text" placeholder="Ex:. 99" />
-          <label for="numero">Bairro: </label>
-          <input id="bairro" type="text" placeholder="Ex :. Nome do bairro" />
+          <div class="input-container">
+            <label for="numero ">Numero: </label>
+            <input
+              id="numero"
+              type="text"
+              placeholder="Ex:. 99" />
+          </div>
+          <div class="input-container">
+            <label for="bairro">bairro: </label>
+            <input
+              id="bairro"
+              type="text"
+              placeholder="Ex:. Nome do bairro" />
+          </div>
         </div>
-        <div class="input-row">
-          <label for="UF">UF: </label>
-          <input id="uf" type="text" placeholder="Ex:. MG" />
-          <label for="numero">Cep: </label>
-          <input id="cep" type="text" placeholder="Ex :. 999" />
+        <div class="container-grid">
+          <div class="input-container">
+            <label for="cep">Cep: </label>
+            <input
+              id="cep"
+              type="text"
+              placeholder="Ex:. 99999-99" />
+          </div>
+          <div class="input-container">
+            <label for="uf">UF: </label>
+            <input
+              id="uf"
+              type="text"
+              placeholder="Ex:. MG" />
+          </div>
         </div>
+      </div>
+      <div class="input-container">
+        <label for="complemento">Complemento: </label>
+        <input
+          id="complemento"
+          type="text"
+          placeholder="Ex:. Bloco Exemplo " />
+      </div>
+      <div class="buttons">
+        <button
+          type="button"
+          class="btn-primary"
+          onclick="window.location='./patiente-address.html';">
+          Continuar
+        </button>
+    </div>
+
+
+
       </form>
     </main>
   </body>
-</html>

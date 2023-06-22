@@ -199,7 +199,7 @@ h3 {
 }
 
 .muted {
-  color: rgba(38, 33, 59, 0.4);
+  color: rgba(38, 33, 59, 0.6);
 }
 
 .map {
@@ -247,6 +247,19 @@ h3 {
   flex-direction: column;
   row-gap: 20px;
 }
+
+.destination-detail {
+  margin-top: 20px;
+}
+
+.last-notes {
+  margin-bottom: 50px;
+}
+
+.last-notes p:last-child {
+  text-align: justify;
+}
+
 /* BARRA DE NAVEGAÇÃO */
 .navigation {
   position: fixed;

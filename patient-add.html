@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,44 +15,47 @@
 
     <title>Cadastrar</title>
   </head>
-  <body>
-    <main>
-      <h1>Cadastro Paciente:</h1>
-      <h3 class="center-column">Informaçoes Pessoais</h3>
-      <form action="">
-        <div class="center-column">
-          <div class="picture">
-            <img src="/icons/photo.svg" alt="" />
-          </div>
-        </div>
-        <div class="input-container">
-          <label for="nome">Nome completo: </label>
-          <input
-            id="nome"
-            type="text"
-            placeholder="Ex:. Joao Batista de Souza Melo" />
-        </div>
-        <div class="input-container">
-          <label for="data">Data de Nascimento: </label>
-          <input id="data" type="date" />
-        </div>
-        <div class="input-container">
-          <label for="cpf">CPF: </label>
-          <input id="cpf" type="cpf" placeholder="Ex:. 999.999.999-99" />
-        </div>
-        <div class="input-container">
-          <label for="email">Email: </label>
-          <input id="email" type="text" placeholder="exemplo@gmail.com" />
-        </div>
-        <div class="buttons">
-          <button
-            type="button"
-            class="btn-primary"
-            onclick="window.location='./patiente-address.html';">
-            Continuar
-          </button>
-        </div>
-      </form>
-    </main>
-  </body>
-</html>
+    <body>
+        <main>
+            <h1>Cadastro Paciente: </h1>
+            <h3 class="center-column">Informaçoes Pessoais</h3>
+            <form action="">
+                    <div class="center-column">
+                        <div class="picture">
+                            <img src="/icons/photo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="nome">Nome completo: </label>
+                        <input
+                          id="nome"
+                          type="text"
+                          placeholder="Ex:. Joao Batista de Souza Melo" />
+                    </div>
+                    <div class="input-container">
+                        <label for="data">Data de Nascimento: </label>
+                        <input id="data" type="date" />
+                    </div>
+                    <div class="input-container">
+                        <label for="cpf">CPF: </label>
+                        <input
+                          id="cpf"
+                          type="cpf"
+                          placeholder="Ex:. 999.999.999-99" />
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Email: </label>
+                        <input id="email" type="text" placeholder="exemplo@gmail.com" />
+                    </div>
+                    <div class="buttons">
+                        <button
+                          type="button"
+                          class="btn-primary"
+                          onclick="window.location='./patiente-address.html';">
+                          Continuar
+                        </button>
+                    </div>
+                    
+            </form> 
+        </main>
+    </body>
